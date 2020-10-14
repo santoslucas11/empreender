@@ -4,19 +4,19 @@ import mapMarkerImg from '../images/map-marker.svg';
 import {FiPlus} from 'react-icons/fi';
 import {Link} from 'react-router-dom';
 import {Map, TileLayer} from 'react-leaflet'
-import '../styles/pages/orphanages-map.css';
+import '../styles/pages/enterprising-map.css';
 
 import 'leaflet/dist/leaflet.css';
 
-function OrphanagesMap(){
+function EnterprisingMap(){
     return(
         <div id="page-map">
             <aside>
                 <header>
                     <img src={mapMarkerImg} alt="Mapa"/>
 
-                    <h2>Escolha um orfanato</h2>
-                    <p>Muitas crianças estão esperando sua visita!</p>
+                    <h2>Escolha um Produto ou Serviço</h2>
+                    <p>Muitos microempreendedores podem estar perto da sua casa!</p>
                 </header>
                 <footer>
                     <strong> Rio de Janeiro </strong>
@@ -37,4 +37,4 @@ function OrphanagesMap(){
     )
 }
 
-export default OrphanagesMap;
+export default EnterprisingMap;

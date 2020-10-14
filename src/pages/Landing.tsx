@@ -5,17 +5,18 @@ import {Link} from 'react-router-dom';
 
 import '../styles/pages/landing.css';
 
-import logoImg from '../images/Logo.svg';
+import logoImg from '../images/map-marker.svg';
 
 function Landing(){
     return(
         <div id="page-landing">
       <div className="content-wrapper">
-        <img src= {logoImg} alt="Happy"/>
+        <img src= {logoImg} alt="Empreende Local"/>
+        <h1>Empreende Local</h1>
 
         <main>
-          <h1>Leve Felicidade para o mundo</h1>
-          <p>Visite orfanatos e mude o dia de muitas crianças</p>
+          <h1>Ajude a melhorar o seu bairro</h1>
+          <p>Procure e compre com empreendedores da sua região</p>
         </main>
 
         <div className="location">
